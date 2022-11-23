@@ -18,7 +18,10 @@ from finance_complaint.constant.model import S3_MODEL_DIR_KEY, S3_MODEL_BUCKET_N
 class FinanceConfig:
 
     def __init__(self, pipeline_name=PIPELINE_NAME, timestamp=TIMESTAMP):
+        """
+        Organization: iNeuron Intelligence Private Limited
 
+        """
         self.timestamp = timestamp
         self.pipeline_name = pipeline_name
         self.pipeline_config = self.get_pipeline_config()
