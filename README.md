@@ -1,23 +1,24 @@
-# neurolab-pyspark
+# Finance-Complaint
+The Consumer Complaint Database is a collection of complaints about consumer financial products and services that was sent to companies for response. A thorough analysis of the complaints being received by a company, places that company at a better position when it comes to monitoring and/or characterizing the overall opinion of customers towards their products or services. A better understanding of the major issues among customers allows the company to tackle those issues and increase retention and loyalty among the customers by providing easy and efficient services and/or products.
 
-![image](https://user-images.githubusercontent.com/115451707/196919992-edcfea8b-e3f6-4f35-9398-43be66b5622d.png)
+## Technology Stack
+1. Python
+2. FastAPI
+3. Machine learning algorithms
+4. Docker
+5. MongoDB
+6. prometheus
+7. Airflow
+8. pyspark framework
+9. Parquet -> for compressing huge dataset
 
-### 1. Validate if pyspark is working or not
+## Infrastructure
+1. Git Actions
+2. AWS S3
 
-Execute below command
+## Architectures
 
-```
-pyspark
-```
 
-Above command will launch pyspark terminal and you can execute pyspark command in interactive shell.
+## WorkFLow setup
 
-Close your terminal
 
-### 2. Now let's run a script file "demo.py"
-
-Execute the spark script.
-
-```
-python demo.py
-```
