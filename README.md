@@ -1,24 +1,34 @@
-# Finance-Complaint
-The Consumer Complaint Database is a collection of complaints about consumer financial products and services that was sent to companies for response. A thorough analysis of the complaints being received by a company, places that company at a better position when it comes to monitoring and/or characterizing the overall opinion of customers towards their products or services. A better understanding of the major issues among customers allows the company to tackle those issues and increase retention and loyalty among the customers by providing easy and efficient services and/or products.
+# Finance-Complaint 
 
-## Technology Stack
-1. Python
-2. FastAPI
-3. Machine learning algorithms
-4. Docker
+
+# Sensor-Fault-Detection
+
+### Problem Statement
+Complaints can give us insights into problems people are experiencing in the marketplace and help us to undestand the reason and do necessary modification in exisiting financial product if required.
+
+
+
+### Solution Proposed 
+By understanding existing complaints registered against financial products we can create an ML model that can help us to identify newly registered complaints whether they are problematic or not and accordingly company can take quick action to resolve the issue, and satisfy the customer's need.
+
+The problem is to identify registered complaint will be disputed by customer or not.
+## Tech Stack Used
+1. Python 
+2. PySpark
+3. PySpark ML
+4. Airflow as Scheduler
 5. MongoDB
-6. prometheus
-7. Airflow
-8. pyspark framework
-9. Parquet -> for compressing huge dataset
-
-## Infrastructure
-1. Git Actions
-2. AWS S3
-
-## Architectures
 
 
-## WorkFLow setup
+## Infrastructure Required.
 
+1. GCP Compute Engine
+2. S3 Bucket
+3. Artifact Registry
 
+## Dashboarding
+1. Grafana
+2. Prometheus
+3. Node Exporter
+4. Promtail
+5. Loki
