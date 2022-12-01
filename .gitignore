@@ -2,7 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-airflow/*
 # C extensions
 *.so
 credential.txt
