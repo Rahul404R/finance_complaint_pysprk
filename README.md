@@ -32,3 +32,10 @@ The problem is to identify registered complaint will be disputed by customer or 
 3. Node Exporter
 4. Promtail
 5. Loki
+
+Influx DB used to store Graphs, logs & status of Grafana.
+Node exporter - t helps us in measuring various server resources such as RAM, disk space, and CPU utilization.
+Promtail - It is an agent which ships the contents of local logs to a private Grafana Loki instance or Grafana Cloud.
+Loki - Store the logs in Loki using promtail
+
+Prometheus is used as a data source
