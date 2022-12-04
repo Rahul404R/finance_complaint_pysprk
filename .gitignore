@@ -5,6 +5,7 @@ __pycache__/
 # C extensions
 *.so
 credential.txt
+KEY.json
 .gitconfig
 .env
 saved_models/*
