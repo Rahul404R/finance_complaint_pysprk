@@ -1,3 +1,5 @@
+
+
 # FROM openjdk:20-slim-buster
 
 ENV AIRFLOW_HOME="/app/airflow"
@@ -16,7 +18,7 @@ WORKDIR /app/
 RUN pip3 install -r requirements.txt
 
 RUN airflow db init 
-RUN airflow users create  -e ragulr404@gmail.com -f Rahul -l R -p admin -r Admin  -u admin
+RUN airflow users create  -e avnish@ineuron.ai -f Avnish -l Yadav -p admin -r Admin  -u admin
 
 # RUN rm airflow/airflow.cfg
 # COPY airflow/airflow.cfg airflow/airflow.cfg
